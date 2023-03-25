@@ -9,6 +9,7 @@ bai.Font = "SourceSans"
 bai.FontSize = "Size18"
 bai.Text = "点我加载白"
 bai.TextColor3 = Color3.new(255/255,255/255,255/255)
+
 bai.MouseButton1Down:connect(function()
 
 if game.PlaceId == 189707 then
@@ -129,4 +130,5 @@ end
 
 -- made by Finny
 -- Original script blox thread: https://scriptblox.com/script/Rainbow-Friends-Auto-Win-BEST-6014 (for others websites that copy from scriptblox)
+end
 end
