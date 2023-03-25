@@ -1,3 +1,6 @@
+game.StarterGui:SetCore("SendNotification", { Title = "欢迎使用白"; Text = "当前注入器:"..identifyexecutor()" })
+Duration = 5;
+
 restorebutton = Instance.new("ScreenGui",game:GetService("CoreGui"))
 bai = Instance.new("TextButton",restorebutton)
 bai.BackgroundColor3 = Color3.new(0/255,0/255,0/255)
@@ -7,10 +10,8 @@ bai.Position = UDim2.new(1,-700,1,-23)
 bai.Size = UDim2.new(0,100,0,20)
 bai.Font = "SourceSans"
 bai.FontSize = "Size18"
-bai.Text = "点我加载白"
+bai.Text = "白 ● 防伪"
 bai.TextColor3 = Color3.new(255/255,255/255,255/255)
-
-bai.MouseButton1Down:connect(function()
 
 if game.PlaceId == 189707 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/yuan114514/bai-Natural-Disaster-Survival/main/bai.lua'))()
