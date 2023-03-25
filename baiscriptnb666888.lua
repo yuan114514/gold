@@ -1,4 +1,4 @@
-game.StarterGui:SetCore("SendNotification", { Title = "欢迎使用白"; Text = "当前注入器:"..identifyexecutor()" })
+game.StarterGui:SetCore("SendNotification", { Title = "欢迎使用白"; Text = "" })
 Duration = 5;
 
 restorebutton = Instance.new("ScreenGui",game:GetService("CoreGui"))
@@ -131,5 +131,4 @@ end
 
 -- made by Finny
 -- Original script blox thread: https://scriptblox.com/script/Rainbow-Friends-Auto-Win-BEST-6014 (for others websites that copy from scriptblox)
-end
 end
