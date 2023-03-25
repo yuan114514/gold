@@ -1,6 +1,3 @@
-game.StarterGui:SetCore("SendNotification", { Title = "欢迎使用白"; Text = "" })
-Duration = 5;
-
 restorebutton = Instance.new("ScreenGui",game:GetService("CoreGui"))
 bai = Instance.new("TextButton",restorebutton)
 bai.BackgroundColor3 = Color3.new(0/255,0/255,0/255)
