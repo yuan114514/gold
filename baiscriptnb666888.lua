@@ -1,14 +1,3 @@
-game.StarterGui:SetCore("SendNotification", {
-    Title = "白";
-    Text = "欢迎";
-    Duration = "2";
-    callbakc = bindableFunction;
-    Button1 = "加载";
- 
-})
-
-wait(1)
-
 restorebutton = Instance.new("ScreenGui",game:GetService("CoreGui"))
 bai = Instance.new("TextButton",restorebutton)
 bai.BackgroundColor3 = Color3.new(0/255,0/255,0/255)
