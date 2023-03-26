@@ -1,3 +1,42 @@
+-- Inside PingHandler (Script) -- 
+ 
+local PingRemote = script.Parent.Handler.GetPing
+ 
+PingRemote.OnServerEvent:Connect(function(Player)
+    PingRemote:FireClient(Player)
+end)
+ 
+-- Inside Handler (LocalScript) --
+ 
+local RunService = game:GetService("RunService")
+ 
+local FPSCounter = script.Parent.Holder.FPS
+ 
+local Colors = {
+    Good = Color3.fromRGB(0, 255, 0),
+    Normal = Color3.fromRGB(255, 255, 0),
+    Bad = Color3.fromRGB(255, 0, 0)
+}
+
+ 
+RunService.RenderStepped:Connect(function(TimeBetween)
+    local FPS = math.floor(1 / TimeBetween)
+ 
+    FPSCounter.Text = FPS
+ 
+    if FPS >= 50 then
+        FPSCounter.TextColor3 = Colors.Good
+ 
+    elseif FPS >= 30 then
+        FPSCounter.TextColor3 = Colors.Normal
+ 
+    elseif FPS >= 0 then
+        FPSCounter.TextColor3 = Colors.Bad
+ 
+    end
+end)
+
+
 restorebutton = Instance.new("ScreenGui",game:GetService("CoreGui"))
 bai = Instance.new("TextButton",restorebutton)
 bai.BackgroundColor3 = Color3.new(0/255,0/255,0/255)
