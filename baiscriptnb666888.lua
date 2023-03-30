@@ -7,15 +7,12 @@ Spooky:Play()
 
 if game.PlaceId == 189707 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/yuan114514/bai-Natural-Disaster-Survival/main/bai.lua'))()
-end
 
 elseif game.PlaceId == 6839171747 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/yuan114514/-Lu/main/bai%20doors.lua"))()
-end
 
 elseif game.PlaceId == 9872472334 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
-end
 
 elseif game.PlaceId == 7991339063 then
     print("auto win loaded, made by Finny")
