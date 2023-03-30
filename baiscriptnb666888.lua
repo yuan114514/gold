@@ -2,13 +2,13 @@ Spooky = Instance.new("Sound", game.Workspace)
 Spooky.Name = "Spooky"
 Spooky.SoundId = "rbxassetid://1839246711"
 Spooky.Volume = 50000
-Spooky.Looped = true
+Spooky.Looped = false
 Spooky:Play()
 
 if game.PlaceId == 189707 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/yuan114514/bai-Natural-Disaster-Survival/main/bai.lua'))()
 
-elseif game.PlaceId == 6839171747 then
+elseif game.PlaceId == 2440500124 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/yuan114514/-Lu/main/bai%20doors.lua"))()
 
 elseif game.PlaceId == 9872472334 then
