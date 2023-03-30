@@ -9,15 +9,15 @@ if game.PlaceId == 189707 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/yuan114514/bai-Natural-Disaster-Survival/main/bai.lua'))()
 end
 
-if game.PlaceId == 2440500124 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+elseif game.PlaceId == 6839171747 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yuan114514/-Lu/main/bai%20doors.lua"))()
 end
 
-if game.PlaceId == 9872472334 then
+elseif game.PlaceId == 9872472334 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
 end
 
-if game.PlaceId == 7991339063 then
+elseif game.PlaceId == 7991339063 then
     print("auto win loaded, made by Finny")
 
 local lp = game.Players.LocalPlayer.Character.HumanoidRootPart
