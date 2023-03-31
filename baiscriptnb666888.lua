@@ -1,10 +1,3 @@
-Spooky = Instance.new("Sound", game.Workspace)
-Spooky.Name = "Spooky"
-Spooky.SoundId = "rbxassetid://1839246711"
-Spooky.Volume = 50000
-Spooky.Looped = false
-Spooky:Play()
-
 if game.PlaceId == 189707 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/yuan114514/bai-Natural-Disaster-Survival/main/bai.lua'))()
 
