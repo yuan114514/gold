@@ -1,3 +1,14 @@
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+
+        Title = "青";
+
+        Text = "当前注入器..identifyexecutor()";
+
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+
+    Duration = 16;
+
 if game.PlaceId == 189707 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/yuan114514/bai-Natural-Disaster-Survival/main/bai.lua'))()
 
