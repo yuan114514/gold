@@ -1,7 +1,7 @@
 if game.PlaceId == 189707 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/yuan114514/bai-Natural-Disaster-Survival/main/bai.lua'))()
 
-elseif game.PlaceId == 2440500124 then
+elseif game.PlaceId == 6839171747 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/yuan114514/-Lu/main/bai%20doors.lua"))()
 
 elseif game.PlaceId == 9872472334 then
