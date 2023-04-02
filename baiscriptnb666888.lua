@@ -114,3 +114,15 @@ end
 -- made by Finny
 -- Original script blox thread: https://scriptblox.com/script/Rainbow-Friends-Auto-Win-BEST-6014 (for others websites that copy from scriptblox)
 end
+
+   else
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+
+        Title = "青";
+
+        Text = "此游戏不在青的范围";
+
+        Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+
+    Duration = 16;
