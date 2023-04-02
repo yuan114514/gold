@@ -118,11 +118,13 @@ end
    else
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-
         Title = "青";
-
         Text = "此游戏不在青的范围";
-
         Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-
     Duration = 16;
+end
+
+
+
+
+
